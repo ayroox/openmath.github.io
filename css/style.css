@@ -1,0 +1,40 @@
+nav {
+	background-color: #146255 ;
+	overflow: hidden;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+nav > ul {
+	list-style-type: none;
+	margin: 10px;
+	padding: 0;
+ }
+
+nav > h1 {
+	color: #ffffff;
+}
+
+nav > ul > li {
+	display: inline;
+	background-color: #146255;
+}
+
+nav > ul > li > a {
+	font-size: 30px;
+	color: #ffffff;
+	padding: 50px;
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav > ul > li a:hover {
+	display: inline;
+	color: #d4d4d4;
+}
+
+html {
+	background-color: #f2c792;
+	scroll-behavior: smooth;
+}
